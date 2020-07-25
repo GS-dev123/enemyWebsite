@@ -1,0 +1,120 @@
+@font-face {
+    font-family: carbon;
+    src: url('Semplicita Medium.otf');
+  }
+  @font-face {
+    font-family: serifany;
+    src: url('carbon phyber.ttf');
+  }
+.navbar{
+background-color: blueviolet;
+height: 300px;;
+}
+.nome{
+    position: relative;
+    top: -75px;
+    font-family: carbon;
+}
+.container-fluid{
+position: relative;
+}
+.nav-item{
+    position: relative;
+    top: 30px;
+    font-family: carbon;
+    font-size: 15px;
+}
+.pt_logo{
+    position: relative;
+    top: -75px;
+    width: 210px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+label{
+    position: relative;
+    font-size: 11px;
+    top: 22px;
+}
+
+.navbar{
+ background: url(../img/d2.png) no-repeat center center fixed; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+
+}
+.col{
+    position: relative;
+    margin-bottom: 20px;;
+}
+
+.footer{
+    background-color: #022651;
+    font-family: carbon;
+    position: relative;
+    color: white;
+}
+.clearfix, .linha{
+    background-color: white;
+}
+.cont-musicas{
+position: relative;
+overflow: hidden;
+top: -20px;
+}
+.cont-footer{
+    overflow: hidden;
+}
+.footer-copyright{
+    font-size: 12px;
+}
+
+h4 {
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    font-family: serifany;
+    color: black;
+  }
+  h6{
+    animation-duration: 3s;
+    animation-name: slidein1;
+    animation-iteration-count: 1;  
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+    75% {
+        font-size: 300%;
+        margin-left: 30%;
+        width: 150%;
+        color: red;
+        font-family: serifany;
+      }
+  }
+  @keyframes slidein1 {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+.form-control{
+    border-radius: 0;
+}
+  
